@@ -17,4 +17,4 @@ fi
 
 # copy config files
 cp $BUNDLES $VIMDIR"/common_config/"
-cp $COLORS"/*" $VIMDIR"/colors/"
+cp -r $COLORS"/" $VIMDIR"/colors/"
